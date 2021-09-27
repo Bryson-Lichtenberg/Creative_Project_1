@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EAEFFE;
+}
+
+.navbar-brand {
+  width: 40px;
+  height: 40px;
+  border-top: solid 0px;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+  border-top: solid 10px #EAEFFE;
+  max-width: 100%;
+}
+
+.item-pic {
+  width: 350px;
+  height: 200px;
+  border-left: solid 75px #EAEFFE;
+  border-right: solid 75px #EAEFFE;
+  max-width: 100%;
+
+}
+.item-text {
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+.center {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 300px;
+}
+
+@media only screen and (max-width: 400px) {
+  .center {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+  }
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+  font-size: 85px;
+}
+.home-text-container {
+  width: 50%;
+  margin-left: 25%;
+}
+h4{
+  text-align: center;
+  font-size: 25px;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.about-container {
+  margin-top: 30px;
+  margin-left: 25%;
+  width: 50%;
+}
+
+.about-pic {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+div.item-page {
+  margin-top: 50px;
+  margin-left: 30%;
+  width: 40%;
+  height: 450px;
+  position: relative;
+}
+
+.item-page-img {
+  float: left;
+  margin-right: 50px;
+}
+div.item-page-head {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  border-top: solid 50px #EAEFFE;
+  border-bottom: solid 15px #EAEFFE;
+}
+
+.item-page-text {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.sizes-available {
+  color: gray;
+}
+
+div.item-page-button {
+  background-color: orange;
+  position: absolute;
+  border-left: solid 15px orange;
+  border-right: solid 15px orange;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #aef8b8;
+  text-align: center;
+}
